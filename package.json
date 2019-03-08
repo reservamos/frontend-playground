@@ -1,0 +1,19 @@
+{
+  "name": "furthur",
+  "version": "0.0.1",
+  "description": "Reservamos Web App",
+  "main": "index.js",
+  "author": "Reservamos Hackers",
+  "license": "GPL",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
