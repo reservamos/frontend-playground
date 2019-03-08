@@ -1,11 +1,11 @@
 {
-  "name": "furthur",
+  "name": "frontend-playground",
   "version": "0.0.1",
-  "description": "Reservamos Web App",
+  "description": "Reservamos Frontend (React + SASS) Playground",
   "main": "index.js",
   "author": "Reservamos Hackers",
-  "license": "GPL",
-  "private": true,
+  "repository": "https://github.com/reservamos/frontend-playground",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "next build",
