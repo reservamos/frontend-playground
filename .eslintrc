@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+
+  "rules": {
+    "function-paren-newline": [2, "consistent"],
+    "lines-between-class-members": [2, "always"],
+    "no-return-assign": [2, "except-parens"],
+    "no-console": 0,
+    "object-curly-newline": [2, { "consistent": true }],
+    "quote-props": [2, "consistent-as-needed"],
+    "space-before-function-paren": [2, "always"],
+    "react/jsx-filename-extension": 0
+  }
+}
