@@ -1,8 +1,12 @@
 import React from 'react';
-import css from './styles.scss';
+import './styles.scss';
 
 function Home () {
-  return <div className={css.example}>Welcome to next.js!</div>;
+  return (
+    <div className="example">
+      <p>Welcome to next.js!</p>
+    </div>
+  );
 }
 
 export default Home;
