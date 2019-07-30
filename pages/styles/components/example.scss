@@ -1,0 +1,13 @@
+.example {
+  @include l-container;
+  display: flex;
+
+  &-text {
+    @include font-styles($primary-700, 2vw);
+  }
+
+  &-icon {
+    @include background-image('/static/appIcon.png', 35px, 32px);
+    margin-right: 10px;
+  }
+}

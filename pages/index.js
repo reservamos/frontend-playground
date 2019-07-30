@@ -1,8 +1,13 @@
 import React from 'react';
-import css from './styles.scss';
+import './index.scss';
 
 function Home () {
-  return <div className={css.example}>Welcome to next.js!</div>;
+  return (
+    <div className="example">
+      <i className="example-icon" />
+      <p className="example-text">Hello world!</p>
+    </div>
+  );
 }
 
 export default Home;
