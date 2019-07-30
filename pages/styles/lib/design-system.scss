@@ -1,0 +1,59 @@
+// ColorSystem and fontfamily for the Reservamos theme
+// Each variable inside uses the !default keyword
+
+// Fontfamilies variables
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700');
+$open-sans: 'Open Sans', 'Helvetica-Neue', 'Helvetica', sans-serif;
+$principal-font: $open-sans !default;
+
+// Font sizes
+$fontsize-xxl: 20px !default;
+$fontsize-xl: 18px !default;
+$fontsize-l: 15px !default;
+$fontsize-m: 13px !default;
+$fontsize-s: 12px !default;
+$fontsize-xs: 11px !default;
+
+// Color System
+// Primary colors ----------
+$primary-900: #000D27 !default;
+$primary-800: #001541 !default;
+$primary-700: #002674 !default;
+$primary-600: #003FC0 !default;
+$primary-500: #0050F3 !default;
+$primary-400: #276EFF !default;
+$primary-300: #5A90FF !default;
+$primary-200: #CECFEA !default;
+$primary-100: #E8E9FF !default;
+$primary-000: #E4E5F0 !default;
+
+// Accent colors ----------
+$accent-900: #2B0A1D !default;
+$accent-800: #400F2B !default;
+$accent-700: #691946 !default;
+$accent-600: #A72870 !default;
+$accent-500: #CE348B !default;
+$accent-400: #DD72AE !default;
+$accent-300: #E79BC6 !default;
+$accent-200: #ECAFD1 !default;
+$accent-100: #F1C4DD !default;
+$accent-000: #F6D8E9 !default;
+
+// GrayScale ----------
+$gray-900: #4A4A4A !default;
+$gray-800: #686868 !default;
+$gray-700: #7F7F7F !default;
+$gray-600: #979797 !default;
+$gray-500: #AEAEAE !default;
+$gray-400: #C7C7C7 !default;
+$gray-300: #D5D5D5 !default;
+$gray-200: #E2E2E2 !default;
+$gray-100: #EEEEEE !default;
+$gray-000: #FAFAFA !default;
+
+// Complementary colors ----------
+$color-success: #66BA5B !default;
+$color-warning: #FFD26A !default;
+$color-error: #FF4D4D !default;
+$color-info: #00ABCB !default;
+$color-discount: #C86B11 !default;
