@@ -1,0 +1,11 @@
+@import 'bourbon';
+
+$font-size: 50px;
+
+.example {
+  @include border-style(dashed null solid);
+  @include border-color(#a60b55 #76cd9c null #e8ae1a);
+  @include border-top-radius(4px);
+  @include border-width(1em null 20px);
+  font-size: $font-size;
+}
