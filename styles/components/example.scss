@@ -1,6 +1,8 @@
 .example {
   @include l-container;
+  align-items: center;
   display: flex;
+  justify-content: space-around;
 
   &-text {
     @include font-styles($primary-700, 2vw);
@@ -9,5 +11,10 @@
   &-icon {
     @include background-image('/static/appIcon.png', 35px, 32px);
     margin-right: 10px;
+  }
+
+  &-link {
+    @include font-styles($primary-700, 1vw);
+    text-decoration: underline;
   }
 }
