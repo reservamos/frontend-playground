@@ -6,7 +6,7 @@ function Home () {
   return (
     <div className="example">
       <i className="example-icon" />
-      <p className="example-text">Hello world!</p>
+      <p className="example-text">Hello world, Brenda!</p>
       <Link href="/other">
         <a href="#prettier" className="example-link">Link</a>
       </Link>
