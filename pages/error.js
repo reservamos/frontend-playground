@@ -35,21 +35,21 @@ function Home () {
     <div className="rutasMX">
         <h3>Explora nuestras rutas en Mexico</h3>
     <div className="tags-item">
-            <a className="tags-link" title="Destinos y rutas de autobús en México" href="#mexico">México</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en Puebla" href="#puebla">Puebla</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en Distrito Federal" href="#distrito-federal">Distrito Federal</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en Chihuahua" href="#chihuahua">Chihuahua</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en Jalisco" href="#jalisco">Jalisco</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en Nayarit" href="#nayarit">Nayarit</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en México" href="#mexico">México</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Puebla" href="#puebla">Puebla</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Distrito Federal" href="#distrito-federal">Distrito Federal</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Chihuahua" href="#chihuahua">Chihuahua</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Jalisco" href="#jalisco">Jalisco</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Nayarit" href="#nayarit">Nayarit</a>
     </div>
         <h3>Explora nuestras rutas en EUA</h3>
     <div className="tags-item2">
-            <a className="tags-link" title="Destinos y rutas de autobús en Texas" href="#texas">Texas</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en California" href="#california">California</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en North Carolina" href="#north-carolina">North Carolina</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en Vermont" href="#vermont">Vermont</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en Colorado" href="#colorado">Colorado</a>
-            <a className="tags-link" title="Destinos y rutas de autobús en New Hampshire" href="#new-hampshire">New Hampshire</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Texas" href="#texas">Texas</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en California" href="#california">California</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en North Carolina" href="#north-carolina">North Carolina</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Vermont" href="#vermont">Vermont</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en Colorado" href="#colorado">Colorado</a>
+        <a className="tags-link" title="Destinos y rutas de autobús en New Hampshire" href="#new-hampshire">New Hampshire</a>
     </div>
     </div>
     </div>
