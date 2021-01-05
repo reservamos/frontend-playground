@@ -2,10 +2,10 @@ $bodybg : #E9EAF6;
 $medium: 700px;
 
 .container {
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
-  background-color: #FFFFFF;
   margin-left: 80px;
   margin-right: 80px;
   padding: 5%;
@@ -13,8 +13,8 @@ $medium: 700px;
 
 body {
   background-color: $bodybg;
-  margin: 0;
   font-family: $open-sans;
+  margin: 0;
 }
 
 h1 {
@@ -22,15 +22,15 @@ h1 {
 }
 
 .logo {
-  display: flex;
-  align-self: center;
   align-items: center;
+  align-self: center;
+  display: flex;
   margin-bottom: 20px;
 }
 
 .logo img {
-  display: flex;
   align-self: flex-end;
+  display: flex;
 }
 
 .illust {
@@ -43,8 +43,8 @@ h1 {
 }
 
 .columntwo {
-  display: flex;
   align-self: center;
+  display: flex;
   justify-content: center;
 }
 
@@ -55,25 +55,25 @@ h1 {
 
 ul {
   line-height: 2em;
-  list-style-type: none;
+  list-style-type: 0;
   padding-left: 0;
 
  li:before { content: "• "; }
 }
 
 .btn {
-  overflow: auto;
-  width: 300px;
-  font-family: $open-sans;
-  font-size: 16px;
   background-color: $accent-500;
   border: 1px solid $accent-600;
-  min-height: 3em;
   border-radius: 4px;
-  text-align: center;
-  color: #FFFFFF;
+  color: white;
   cursor: pointer;
+  font-family: $open-sans;
+  font-size: 16px;
+  min-height: 3em;
+  overflow: auto;
+  text-align: center;
   padding: 30px;
+  width: 300px;
 }
 
 .buttonone button:hover {
@@ -81,8 +81,8 @@ ul {
 }
 
 .buttontwo {
-  text-decoration: none;
-  padding-left: 40px; 
+  text-decoration: 0;
+  padding-left: 40px;
   padding-top: 20px;
 }
 
@@ -95,19 +95,19 @@ h3 {
 }
 
 .columntwo a {
-  text-align: center;
-  text-decoration: none;
-  color: #11939A;
-  font-family: $open-sans;
   border: 1px solid #A4D6D8;
   border-radius: 30px;
+  color: #11939A;
+  font-family: $open-sans;
+  text-align: center;
+  text-decoration: 0;
   padding: 7px 50px;
 }
 
 .tags-item {
-  flex-wrap: wrap;
   display: inline-block;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   margin: 0 20 20 0;
 
@@ -117,10 +117,10 @@ h3 {
 }
 
 .tags-itemtwo {
-  flex-wrap: wrap;
   display: inline-block;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0 20 20 0;
 
   & a:hover {
