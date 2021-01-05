@@ -1,67 +1,68 @@
 $bodybg : #E9EAF6;
 $medium: 700px;
- 
-.container{
+
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
-  background-color: #FFF;
+  gap: 0 40px;
+  background-color: #FFFFFF;
   margin-left: 80px;
   margin-right: 80px;
   padding: 5%;
 }
 
-body{
+body {
   background-color: $bodybg;
   margin: 0;
   font-family: $open-sans;
 }
 
-h1{
+h1 {
   color: $accent-500;
 }
-  
-.logo{
+
+.logo {
   display: flex;
   align-self: center;
   align-items: center;
-  margin-bottom: 20px;    
+  margin-bottom: 20px;
 }
 
-.logo img{
+.logo img {
   display: flex;
   align-self: flex-end;
 }
 
-.illust{
+.illust {
   align-self: flex-start;
 }
 
-.column1{
+.columnone {
   align-self: center;
   justify-content: center;
 }
 
-.column2{
+.columntwo {
   display: flex;
-  align-self: center;  
+  align-self: center;
   justify-content: center;
 }
 
-.buttons{
+.buttons {
   display: flex;
   flex-direction: column;
 }
 
-ul{
+ul {
   line-height: 2em;
   list-style-type: none;
   padding-left: 0;
+
+ li:before { content: "• "; }
 }
-    
-.btn{
+
+.btn {
   overflow: auto;
-  cursor: pointer;
   width: 300px;
   font-family: $open-sans;
   font-size: 16px;
@@ -70,56 +71,30 @@ ul{
   min-height: 3em;
   border-radius: 4px;
   text-align: center;
-  color: #fff;
+  color: #FFFFFF;
   cursor: pointer;
   padding: 30px;
-} 
+}
 
-.button1 button:hover {
+.buttonone button:hover {
   background-color: $accent-600;
 }
 
-.button2{
+.buttontwo {
   text-decoration: none;
   padding-left: 40px; 
   padding-top: 20px;
 }
-     
-.button2 a{
+
+.buttontwo a {
   color: $accent-500;
 }
 
-h3{
+h3 {
   margin-top: 50px;
 }
 
-.tags-item{
-  display: flex;
-  flex-wrap: wrap;
-  display: inline-block;
-  display: flex;
-  flex-direction: row;
-  margin: 0 20 20 0px;
-}
-
-.tags-item a:hover {
-  background: #EDF7F7;
-}
-
-.tags-item2{
-  display: flex;
-  flex-wrap: wrap;
-  display: inline-block;
-  display: flex;
-  flex-direction: row;
-  margin: 0 20 20 0px;
-}
-
-.tags-item2 a:hover {
-  background: #EDF7F7;
-}
-
-.column2 a{
+.columntwo a {
   text-align: center;
   text-decoration: none;
   color: #11939A;
@@ -129,7 +104,31 @@ h3{
   padding: 7px 50px;
 }
 
-.tags-link{
+.tags-item {
+  flex-wrap: wrap;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20 20 0;
+
+  & a:hover {
+    background: #EDF7F7;
+  }
+}
+
+.tags-itemtwo {
+  flex-wrap: wrap;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  margin: 0 20 20 0;
+
+  & a:hover {
+    background: #EDF7F7;
+  }
+}
+
+.tags-link {
   margin: 7px;
 }
 
@@ -137,54 +136,28 @@ h3{
   // MOBILE QUERIES //
 
 @media (max-width: 960px) {
-  .container{
+  .container {
     align-items: center;
     grid-template-columns: 1fr;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .body{
+  .body {
     align-items: center;
   }
 
-  .text1 h1{
+  .textone h1,
+  p,
+  h3 {
     text-align: center;
   }
 
-  p{
-    text-align: center;
-  }
-
-  .logo{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .illust{
-    display: flex;
-    justify-content: center;
-  }
-
-  .button1{
-    display: flex;
-    justify-content: center;
-  }
-
-  .button2{
-    text-align: center;
-    padding-left: 0px;
-  }
-
-  h3{
-    text-align: center;
-  }
-
-  .tags-item2 {
-    display: flex;
-    justify-content: center;
-  }
-
+  .logo,
+  .illust,
+  .buttonone,
+  .buttontwo,
+  .tags-itemtwo,
   .tags-item {
     display: flex;
     justify-content: center;
