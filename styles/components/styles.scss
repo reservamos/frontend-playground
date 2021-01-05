@@ -19,6 +19,7 @@ body {
 
 h1 {
   color: $accent-500;
+  margin: 15px 0;
 }
 
 .logo {
@@ -54,7 +55,7 @@ h1 {
 }
 
 ul {
-  line-height: 2em;
+  line-height: 3em;
   list-style-type: 0;
   padding-left: 0;
 
@@ -72,8 +73,12 @@ ul {
   min-height: 3em;
   overflow: auto;
   text-align: center;
-  padding: 30px;
+  padding: 15px;
   width: 300px;
+}
+
+.buttonone {
+  padding-top: 20px;
 }
 
 .buttonone button:hover {
@@ -82,7 +87,6 @@ ul {
 
 .buttontwo {
   text-decoration: 0;
-  padding-left: 40px;
   padding-top: 20px;
 }
 
