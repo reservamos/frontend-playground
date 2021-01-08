@@ -12,7 +12,7 @@ function Home () {
       <div className="illustration">
         <img src="https://i.ibb.co/x8HnLbT/illust.png" alt="illustration" />
       </div>
-      <div className="description-one">
+      <div className="description">
         <h1 className="description-title">Disculpa, la página que estás buscando no existe.</h1>
         <p className="description-paragraph">Puede ser alguno de los siguientes motivos:</p>
         <ul className="description-list">

@@ -20,11 +20,6 @@ body {
   margin: none;
 }
 
-h1 {
-  @include font-styles($accent-500, 35px, 700);
-  margin-bottom: 30px;
-}
-
 .logo {
   align-items: center;
   display: flex;
@@ -44,8 +39,25 @@ h1 {
 .description {
   grid-area: description;
 
-  
+  &-title {
+     @include font-styles($accent-500, 35px, 700);
+    margin-bottom: 30px;
+  }
+
+  &-list {
+  list-style-type: none;
+  padding-left: none;
+    li {
+    padding: 10px 0;
+    margin: 10px;
+
+      &::before {
+      content: "• ";
+      }
+    }
+  }
 }
+
 
 .links {
   align-self: center;
@@ -62,20 +74,6 @@ h1 {
 .buttons {
   display: flex;
   flex-direction: column;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: none;
-
-  li {
-  padding: 10px 0;
-  margin: 10px;
-
-    &::before {
-    content: "• ";
-    }
-  }
 }
 
 .button-primary {
@@ -142,7 +140,7 @@ ul {
     align-items: center;
   }
 
-  .description-one h1,
+  .description h1,
   p,
   h3 {
     text-align: center;
