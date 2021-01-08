@@ -1,0 +1,158 @@
+$bodybg : #E9EAF6;
+$medium: 700px;
+
+.container {
+  background-color: #FFFFFF;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+  "logo logo"
+  "illustration illustration"
+  "description links";
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 5%;
+}
+
+body {
+  background-color: $bodybg;
+  font-family: $open-sans;
+  margin: none;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  grid-area: logo;
+
+  & img {
+    align-self: flex-end;
+    display: flex;
+}
+}
+
+.illustration {
+  align-self: flex-start;
+  grid-area: illustration;
+}
+
+.description {
+  grid-area: description;
+
+  &-title {
+     @include font-styles($accent-500, 35px, 700);
+    margin-bottom: 30px;
+  }
+
+  &-list {
+  list-style-type: none;
+  padding-left: none;
+    li {
+    padding: 10px 0;
+    margin: 10px;
+
+      &::before {
+      content: "• ";
+      }
+    }
+  }
+}
+
+
+.links {
+  align-self: center;
+  display: flex;
+  grid-area: links;
+  justify-content: center;
+  flex-direction: column;
+
+  & h3 {
+    margin-bottom: 20px;
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-primary {
+  background-color: $accent-500;
+  border: 1px solid $accent-600;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  display: block;
+  font-family: $open-sans;
+  font-size: 16px;
+  min-height: 3em;
+  overflow: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  width: 300px;
+
+  &:hover {
+    background-color: $accent-600;
+  }
+}
+
+.description-link {
+  color: $accent-500;
+  display: block;
+  padding-top: 20px;
+}
+
+.tags-link {
+  border: 1px solid #A4D6D8;
+  border-radius: 30px;
+  color: #11939A;
+  font-family: $open-sans;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 50px;
+  margin: 0 10px 10px 0;
+
+  &:hover {
+    background: #EDF7F7;
+  }
+}
+
+.button-secondary,
+.button-secondary-two {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 20px 20px 0;
+}
+
+// MOBILE QUERIES //
+
+@media (max-width: 960px) {
+  .container {
+    align-items: center;
+    grid-template-areas: "logo" "illustration" "description" "links";
+    margin-left: none;
+    margin-right: none;
+  }
+
+  .body {
+    align-items: center;
+  }
+
+  .description h1,
+  p,
+  h3 {
+    text-align: center;
+  }
+
+  .logo,
+  .illustration,
+  .button-primary,
+  .description-link,
+  .button-secondary-two,
+  .button-secondary {
+    display: flex;
+    justify-content: center;
+  }
+}
