@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import '../styles/index.scss';
 
-function Home () {
+function Other () {
   return (
     <div className="example">
       <i className="example-icon" />
@@ -14,4 +14,4 @@ function Home () {
   );
 }
 
-export default Home;
+export default Other;
