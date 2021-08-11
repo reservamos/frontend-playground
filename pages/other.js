@@ -5,8 +5,8 @@ function Other() {
   return (
     <div className="example">
       <i className="example-icon" />
-      <p className="example-text">Hello hello world!</p>
-      <Link href="/index">
+      <p className="example-text">Hello other world!</p>
+      <Link href="/">
         <a href="#prettier" className="example-link">
           Back
         </a>
