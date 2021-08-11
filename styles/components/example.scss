@@ -9,7 +9,7 @@
   }
 
   &-icon {
-    @include background-image('/static/appIcon.png', 35px, 32px);
+    @include background-image('/images/appIcon.png', 35px, 32px);
     margin-right: 10px;
   }
 
